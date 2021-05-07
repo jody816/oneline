@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="veiwport" content="width=device-width">
+<title>memo</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<style>
+	#container {
+        width:600px;
+        margin:10px auto;
+      	}
+	h1 {
+        padding: 10px;
+        background-color: rgb(255, 255, 128);
+        color: rgb(0, 0, 0); font-family: 'Lobster', cursive;}
+    #m label {
+        float: left;
+        font-size: 13px;
+        width: 110px;
+      	}
+    #m ul li {
+        line-height: 30px;
+        list-style: none;
+        padding: 5px 10px;
+        margin-bottom: 2px;
+      	}
+	body {background-image: url('C:/Users/jody8/OneDrive/바탕 화면/캡처/cor.jpg');}
+	p {font-family: 'Nanum Pen Script', cursive;}
+</style>
+</head>
+<body>
+<div id="container">
+	<h1>Oneline Memo</h1>
+	<hr>
+	<form id="m" method="post" action="memo_write.jsp" style="background-color: #fff">
+		<fieldset>
+			<ul type="none">
+				<li>
+					<input type="text" name="memo"></input>
+					<input type="submit" value="등록"></input>
+
+					<p>(4/7 15:13) 오늘은 금요일이다. 후하하^^ <input type="submit" value="X">등록</input></p>
+					<p>(4/7 11:03) 수업이 언제 끝나나... ㅜㅜ <input type="submit" value="X">등록</input></p>
+				</li>
+			</ul>
+		</fieldset>
+</form>
+</body>
+</html>
