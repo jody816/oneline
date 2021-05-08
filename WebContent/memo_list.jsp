@@ -37,9 +37,10 @@
 	rs.close();
 	pstmt.close();
 	con.close();
-	out.print("DB조회 성공");
+	
+	//String sqld = "delete from oneline(memo) where num=?";
 %>
-
+<input type="submit" value="메모 작성" onclick="location.href='http://localhost:8080/memo/memo01.html'">
 
 </body>
 </html>
